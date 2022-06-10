@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KlutchStudios</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/409f087935.js" crossorigin="anonymous"></script>
+
+    <style>
+        .banner-image {
+            background-image: url('img/mic.jpeg');
+            background-size: cover;
+            padding-top: 15%;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:black">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#"><span style="color: orange;">K</span>lutchStudios</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto ">
+                    <a class="nav-link me-auto text-white active" aria-current="page" href="#about">About Us</a>
+                    <a class="navclass nav-link text-white" href="#services">Services</a>
+                    <a class="nav-link text-white" href="#engineers">Our Engineers</a>
+                    <a class="nav-link text-white" href="#booking">Booking</a>
+                    <a class="nav-link text-white" href="#contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BannerImage -->
+    <div class="banner-image w-100 vh-100 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="promo text-white display-5">Where History Is Recorded</h1>
+                    <p class="lead text-white text-center">
+                        Innovative world leading recording studio.
+                    </p>
+                    <button type="button" class=" landbtn btn text-white " style="background-color: orange ;">Book
+                        Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About us-->
+    <section class="about" id="about">
+        <div class="container">
+            <h3 class="text-center mt-3 p-3">ABOUT US</h3>
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <p class="p-2 mt-5">
+                        We are a recording studio built by artists for artists. We understand the gripes that most
+                        modern artists find when it comes to musical production. We were founded in 2001 by former head
+                        engineer Bill Russell. He started out as a folk artist and later transitioned into mixing and
+                        mastering. With his knowledge of production, he was able to work with a range of artists
+                        regardless of genre. He pushed for the recording of music because he believed it was kin to
+                        storytelling, and that when it is all said and done our words will live on forever. He has
+                        worked with 2x Grammy winner Dejon West and has helped score numerous movies. We pride ourselves
+                        on our ability to take an artist’s vision and make it real life. We record history.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/rs.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/p1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/p2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services-->
+    <section class="services" id="services">
+        <div class="container">
+            <h3 class="text-center text-white mt-3 p-3">SERVICES</h3>
+            <div class=" text-white row ">
+                <div class="col-2 mt-3">
+                    <h5>Audio Recording </h5>
+                </div>
+                <div class=" text-white col-10 p-1 ">
+                    We do all kinds of vocal recordings, whether its for music or voice acting. This service also comes
+                    with a vast selection of microphone choices during the recording session. Base price starts at
+                    50$/hour
+                </div>
+            </div>
+            <div class=" text-white row mt-4">
+                <div class="col-2 mt-3">
+                    <h5>Audio Mixing</h5>
+                </div>
+                <div class=" text-white col-10 p-1 ">
+                    Audio mixing is the process of optimizing and combining multitrack(instruments) recordings and audio
+                    recordings into a final product. The engineer you choose to work with will take the raw recordings
+                    and transform them into whatever ideas you had. Base price is 50$/hour.
+                </div>
+            </div>
+            <div class=" text-white row mt-4">
+                <div class="col-2 mt-3">
+                    <h5>Audio Mastering</h5>
+                </div>
+                <div class=" text-white col-10 p-1 mb-4 ">
+                    Audio mixing is the process of preparing and transferring mixed recorded audio to its final polished
+                    version. This involves making making the song clear and loud enough so it sounds good on whatever
+                    form of audio player and streaming service. Base price is 60$/hour.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="engineers" id="engineers">
+        <div class="container">
+            <h3 class="text-center mt-3 p-3">OUR TEAM </h3>
+            <p class="p-1 text-center">Our team of highly dedicated sound engineers will get you right! They all have
+                numerous sessions under
+                their belts and tons of expeirence working with artists of all genres.</p>
+            <div class="row text-center m-1">
+                <div class="col-md-4">
+                    <h5 class="p-2">Andy</h5>
+                    <img class='img-fluid p-2 rounded-circle border border-dark"' src="img/eng1.jpg" alt="engineer1">
+                    <p class="p-2">Specializes in music recording, voiceover recording, and audio mixing </p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="p-2">Kyra</h5>
+                    <img class='img-fluid p-2 rounded-circle border border-dark"' src="img/eng2.jpg" alt="engineer1">
+                    <p class="p-2">Specializes in music recording, audio mixing, audio mastering</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="p-2">Ashish</h5>
+                    <img class='img-fluid p-2 rounded-circle border border-dark"' src="img/eng3.jpg" alt="engineer1">
+                    <p class="p-2">Specializes in music recording, voiceover recording, audio mixing, and audio
+                        mastering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking" id="booking">
+        <div class="container text-white">
+            <h3 class="text-center mt-3 p-3">LETS MAKE MAGIC TOGETHER</h3>
+            <form class="p-3">
+                <div class="row p-3">
+                    <div class="col">
+                        <label for="emailI is-invalid">Email</label>
+                        <input type="email" id="emailI" class="form-control" placeholder="Email">
+                        <div class="invalid-feedback">Enter valid email</div>
+                    </div>
+                    <div class="col">
+                        <label for="name1">Name</label>
+                        <input type="text" id="name1" class="form-control" placeholder="Full Name">
+                    </div>
+                </div>
+                <div class="row p-3">
+                    <div class="col">
+                        <label for="startDate">Pick a date</label>
+                        <input id="startDate" class="form-control" type="date" />
+                        <span id="startDateSelected"></span>
+                    </div>
+                    <div class="col">
+                        <label for="inputS">Pick a Service</label>
+                        <select id="inputS" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Recording</option>
+                            <option>Mixing</option>
+                            <option>Mastering</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row p-3">
+                    <div class="col">
+                        <label for="inputEng">Pick an Engineer</label>
+                        <select id="inputEng" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Andy</option>
+                            <option>Kyra</option>
+                            <option>Ashish</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="inputTime">Select Time Slot</label>
+                        <select id="inputTime" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>5:00pm</option>
+                            <option>6:00pm</option>
+                            <option>7:00pm</option>
+                            <option>8:00pm</option>
+                            <option>9:00pm</option>
+                            <option>10:00pm</option>
+                            <option>11:00pm</option>
+                            <option>12:00pm</option>
+                            <option>1:00am</option>
+                            <option>2:00am</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="inputHrs">Number of session hours</label>
+                        <select id="inputHrs" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row text-center p-3">
+                    <div class="col">
+                        <button type="submit" onclick="sumb()" class=" sumbtn btn btn-light text-center">Book</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h3 class="text-center mt-3 p-3">GET IN CONTACT</h3>
+            <div class="row">
+                <div class="col p-2">
+                    We are a studio made by artists for artists. We pride ourselves in our attentiveness to detail and
+                    requirements. If you have any questions do not hesitate to reach out to us!
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p><strong>PHONE:</strong> 905-655-1235</p>
+                    <p> <strong>ADDRESS:</strong> 21 Gally Way, Toronto M1V8K1 </p>
+                    <p><strong>EMAIL:</strong> info@klutchstudios.ca</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <img class="img-fluid rounded mt-1 p-1" src="img/out1.jpg" alt="">
+                </div>
+                <div class=" text-center col">
+                    <h3 class="text-center mt-1 p-1">SEE US IN PERSON</h3>
+                    <p>Monday: 6:00pm - 2:00am</p>
+                    <p>Tuesday: 6:00pm - 2:00am</p>
+                    <p>Wednesday: 6:00pm - 2:00am</p>
+                    <p>Thursday: 6:00pm - 2:00am</p>
+                    <p>Friday: 6:00pm - 2:00am</p>
+                    <p>Saturday: 6:00pm - 2:00am</p>
+                    <p>Sunday: CLOSED</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col">
+                    <figure class="text-center mt-2 p-2">
+                        <blockquote class="blockquote">
+                            <p>Recording is more than music, its a vocal rendition of someones history.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Bill Russell (Founder)
+                        </figcaption>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </figure>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

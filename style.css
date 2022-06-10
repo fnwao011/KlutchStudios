@@ -1,0 +1,39 @@
+.landbtn {
+    margin-top: 30px;
+    margin-left: 45%;
+}
+
+.services {
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+
+}
+
+.booking {
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+
+}
+
+.footer {
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+
+}
+
+.landbtn:hover {
+    transform: translateY(-7px);
+}
+
+.sumbtn {
+    transition: background-color 200ms ease-in-out;
+
+}
+
+.sumbtn:hover {
+    background-color: orange;
+}
+
+nav a:hover {
+    color: orange;
+}
